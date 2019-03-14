@@ -33,6 +33,11 @@ namespace embaralhator2000
             Console.WriteLine("##########################################");
             Console.ReadKey();
 
+            Console.WriteLine("############## EMBARALHATOR 7000 ##############");
+            Console.WriteLine(string.Format("Retornou o indice: {0}",Embaralhator7000.GeradorDeIndice.RetornaIndice(100)));
+            Console.WriteLine("##########################################");
+            Console.ReadKey();
+
         }
 
         private static void EmbaralhatorMethod()

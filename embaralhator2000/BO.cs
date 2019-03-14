@@ -17,7 +17,7 @@ namespace embaralhator2000
 
                     numero = numero * numero;
 
-                    string x = string.Format("Item:{0};{1}", (i + 1), RetornaLetra(numero));
+                    string x = string.Format("Item:{0};{1}", (i + 1), RetornaIndice(numero));
 
                     retorno.Add(x);
                 }
@@ -33,36 +33,36 @@ namespace embaralhator2000
             return retorno;
         }
 
-        private static string RetornaLetra(int hash)
+        private static int RetornaIndice(int hash)
         {
-            var retorno = string.Empty;
+            var retorno = 0;
             int resultado = 0;
 
 
             if (hash != int.MinValue)
-                retorno = CalculaHashERetornaLetra(hash, ref resultado);
+                retorno = CalculaHashERetornaIndice(hash, ref resultado);
 
             return retorno;
         }
 
-        private static string CalculaHashERetornaLetra(int hash, ref int resultado)
+        private static int CalculaHashERetornaIndice(int hash, ref int resultado)
         {
-            string retorno;
+            int retorno;
             {
                 var valor = hash.ToString().Replace("-", "");
 
                 resultado = CalculaHash(resultado, valor);
 
                 if (resultado <= 2)
-                    retorno = "A";
+                    retorno = 0;
                 else if (resultado <= 4)
-                    retorno = "B";
+                    retorno = 1;
                 else if (resultado <= 6)
-                    retorno = "C";
+                    retorno = 2;
                 else if (resultado <= 8)
-                    retorno = "D";
+                    retorno = 3;
                 else
-                    retorno = "E";
+                    retorno = 4;
             }
 
             return retorno;
@@ -87,10 +87,7 @@ namespace embaralhator2000
             for (int i = 0; i < valor.Length; i++)
             {
                 resultado += int.Parse(valor.Substring(i, 1));
-
             }
-
-
 
             return resultado;
         }

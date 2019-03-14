@@ -5,3 +5,11 @@ C:\Users\odnan\source\repos\embaralhator2000\embaralhator2000\obj\Debug\embaralh
 C:\Users\odnan\source\repos\embaralhator2000\embaralhator2000\obj\Debug\embaralhator2000.exe
 C:\Users\odnan\source\repos\embaralhator2000\embaralhator2000\obj\Debug\embaralhator2000.pdb
 C:\Users\odnan\source\repos\embaralhator2000\embaralhator2000\obj\Debug\embaralhator2000.csprojAssemblyReference.cache
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\bin\Debug\embaralhator2000.exe.config
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\obj\Debug\embaralhator2000.exe
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\obj\Debug\embaralhator2000.pdb
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\bin\Debug\embaralhator2000.exe
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\bin\Debug\embaralhator2000.pdb
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\obj\Debug\embaralhator2000.csprojResolveAssemblyReference.cache
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\bin\Debug\Embaralhator7000.dll
+C:\Users\fernandote\Downloads\EMBARALHATOR-master\EMBARALHATOR-master\embaralhator2000\bin\Debug\Embaralhator7000.pdb
